@@ -1,17 +1,16 @@
 
-/* Your CSS Code here. */
 .holder {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); 
-  grid-template-rows: repeat(2, 1fr);
-  grid-gap: 10px; 
-  width: 200px; 
+  grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+  grid-template-rows: repeat(2, 1fr); /* Two equal rows */
+  gap: 0; /* No gap between grid items */
+  width: 200px; /* Total size of the grid container */
+  height: 200px; /* Total size of the grid container */
 }
 
 .item {
-  background-color: #3498db;
-  color: #fff;
-  text-align: center;
-  padding: 20px;
-  box-sizing: border-box;
+  border: 1px solid #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
